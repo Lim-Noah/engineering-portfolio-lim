@@ -5,16 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Noah Lim | Engineering Portfolio</title>
   <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
-    header { padding: 20px; text-align: center; }
-    iframe { width: 100%; height: 85vh; border: 0; }
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Noah Lim — Engineering Portfolio</h1>
-    <a href="./NL-portfolio.pdf" target="_blank">Open portfolio PDF</a>
-  </header>
-  <iframe src="./NL-portfolio.pdf" title="Engineering Portfolio"></iframe>
+  <iframe
+    src="./NL-portfolio.pdf#toolbar=0&navpanes=0&view=FitH"
+    title="Engineering Portfolio">
+  </iframe>
 </body>
 </html>
